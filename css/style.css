@@ -13,7 +13,6 @@ ul{
 }
 
 .active{
-    color: #46A2A0 !important;
     text-decoration: underline;
     font-weight: bold;
 }
@@ -97,7 +96,7 @@ header{
 .ctn{
     font-weight: 500;
     padding: 8px 15px;
-    background: #46A2A0;
+    background: #372E23;
     border-radius: 30px;
     color: whitesmoke;
 }
