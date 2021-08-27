@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Serif KR', serif;
 }
 
 a{
@@ -77,6 +84,7 @@ header{
     font-size: 3vmin;
     line-height: 4vmin;
     font-weight: 300;
+    font-family: 'Noto sans KR', sans-serif;
 }
 
 .line{
@@ -89,12 +97,13 @@ header{
 
 .header-content h1{
     font-size: 7vmin;
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 30px;
 }
 
 .ctn{
-    font-weight: 500;
+    font-weight: 400;
+    font-family: 'Noto sans KR', sans-serif;
     padding: 8px 15px;
     background: #372E23;
     border-radius: 30px;
@@ -125,6 +134,10 @@ section{
     text-align: center;
     font-size: 4vmin;
     color: #372E23;
+}
+
+.title h1{
+    font-family: 'Noto sans KR', sans-serif;
 }
 
 .row{
@@ -195,6 +208,8 @@ section{
 
 .explore-content h1{
     font-size: 4vmin;
+    font-weight: 600;
+    font-family: 'Noto sans KR', sans-serif;
     color: #fff;
 }
 
@@ -204,12 +219,12 @@ section{
 }
 
 .explore-ctn{
-    padding: 8px 15px;
     border-radius: 30px;
     color: whitesmoke;
     background: #1C56B2;
     margin-top: 40px;
     padding: 10px 40px;
+    font-family: 'Noto sans KR', sans-serif;
 }
 
 .content-col{
